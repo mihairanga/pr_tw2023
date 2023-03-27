@@ -3,3 +3,19 @@ footer
     display:flex;
     
 }
+
+html
+{
+    background-color: blue;
+}
+
+aside
+{
+    justify-content: right;
+}
+
+.title
+{
+    display:flex;
+    justify-content: center;
+}
