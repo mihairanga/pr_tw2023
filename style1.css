@@ -6,16 +6,54 @@ footer
 
 html
 {
-    background-color: blue;
+    background: linear-gradient(125deg, rgba(244, 153, 73, 0.696), rgb(255, 106, 0));
+}
+
+body
+{
+    margin:0;
+    padding:0;
+    border:0;
 }
 
 aside
 {
     justify-content: right;
+    order:1;
+}
+
+.container1
+{
+    display:flex;
+    width:100%;
+    background: white;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 .title
 {
     display:flex;
     justify-content: center;
+}
+
+.title2
+{
+    z-index:1;
+    width:29vw;
+    height:100px;
+    border-radius: 3px;
+    transform:rotate3d(60deg, 60deg, 60deg);
+    
+    background:purple;
+
+}
+
+.card1
+{
+    width:25%;
+    min-height: 300px;
+    background: red;
+    display:flex;
 }
