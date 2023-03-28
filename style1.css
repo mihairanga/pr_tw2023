@@ -121,19 +121,34 @@ aside
 }
 
 
-@media (max-width:990px)
+@media screen and (max-width:990px)
 {
     .container1 .container2
     {
         flex-wrap: wrap;
+        display:flex;
     }
 }
 
-@media (max-width:765px)
+@media screen and (max-width:765px)
 {
     .container1 .container2
     {
+        display:flex;
+        flex-wrap: wrap;
         flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .card1
+    {
+    width:75%;
+    min-height: 300px;
+    background: linear-gradient(to bottom right,rgb(237, 79, 11), rgb(240, 236, 12));
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow:5px 5px 6px 6px rgba(77, 77, 77, 0.411);
     }
 }
 
