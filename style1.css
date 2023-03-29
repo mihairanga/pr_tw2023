@@ -128,6 +128,11 @@ aside
         flex-wrap: wrap;
         display:flex;
     }
+
+    .card1
+    {
+        width:37%;
+    }
 }
 
 @media screen and (max-width:765px)
