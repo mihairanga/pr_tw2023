@@ -123,7 +123,7 @@ aside
 
 @media screen and (max-width:990px)
 {
-    .container1 .container2
+    .container1
     {   
         display:flex;
         flex-wrap: wrap;
@@ -138,7 +138,7 @@ aside
 
 @media screen and (max-width:765px)
 {
-    .container1 .container2
+    .container1
     {
         display:flex;
         flex-wrap: wrap;
